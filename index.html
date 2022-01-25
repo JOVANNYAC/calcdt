@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@0,500;1,700&display=swap"
+        rel="stylesheet">
+    
+    <title>Simulacion de cdt</title>
+</head>
+
+<body>
+    
+        <header>
+            <h1>Mi Banco favorito</h1>
+            <h2>Simulacion de inversion</h2>
+        </header>
+    
+        <section class="formulario">
+            <form action="">
+                <div class="inputLabel">
+                   <label for="inputInversion">Ingresa el valor que deseas invertir</label>
+                   <input id="inputInversion" type="number" placeholder="Min $100.000">
+    
+                   <label for="inputDias">Ingresa el plazo de tu inversion en días</label>
+                   <input id="inputDias" placeholder="Min 30 dias Max 360 dias" type="number">
+                </div>
+    
+                <button type="button" onclick="calcularResultado()">Calcular</button>
+                <button type="button" value="Actualizar" onclick="location.reload()">Nuevo Calculo</button>
+            </form>
+        </section>
+    
+        <section class="parrafo">
+            <p id="parrafoResultado"></p>
+            <p id="parrafoResultado2"></p>
+            <p id="parrafoResultado3"></p>
+        </section>
+    
+        <footer>
+        <p>Jovanny Alarcon Calderon 2022</p>
+        </footer>
+  
+    <script src="javascript.js"></script>
+</body>
+
+</html>
